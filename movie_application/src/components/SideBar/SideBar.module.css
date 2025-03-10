@@ -1,0 +1,17 @@
+.sideBar{
+    height: 310rem;
+    width: 350px;
+    background-color: #f1f1f1;
+}
+
+.options{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 1.5s;
+    text-align: left;
+}

@@ -1,0 +1,13 @@
+.footer{
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.pTag{
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
