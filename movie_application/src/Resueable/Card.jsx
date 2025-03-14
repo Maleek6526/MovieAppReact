@@ -21,6 +21,7 @@ function Card({data}) {
                                 <p>{item.original_title}</p>
                                 <p>{item.overview}</p>
                                 <p><strong><FontAwesomeIcon icon={faStar} /></strong> {item.vote_average}</p>
+                                <button className={Style.addToCart}>Add to cart</button>
                             </div>
                         </div>
                     )

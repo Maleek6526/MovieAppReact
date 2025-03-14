@@ -8,3 +8,21 @@
 .image{
     border-radius: 30px;
 }
+
+.addToCart{
+    height: 40px;
+    width: 120px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 1.8s;
+}
+
+.addToCart:hover{
+    background-color: red;
+    transition: background-color 1.5s;
+    transform: scale(1.2);
+    animation: keepSize 0.1s forwards;
+}

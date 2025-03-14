@@ -32,7 +32,7 @@ function NavBar() {
       <div className={Style.searchMovies}>
         <form onSubmit={handleSearch}>
             <input type="text" placeholder="Search Movies..." value={search} onChange={(e) => setSearch(e.target.value)} />
-            <button type="submit">Search</button>
+            <button className={Style.submitButton} type="submit">Search</button>
         </form>
         
       </div>
