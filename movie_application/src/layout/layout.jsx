@@ -4,15 +4,14 @@ import Footer from "../components/Footer/Footer.jsx"
 import SideBar from "../components/SideBar/SideBar.jsx"
 import styles from "./laylout.module.css"
 
-import React from 'react'
 
 function layout() {
     return (
         <div>
-            <NavBar />            
+            <NavBar/>            
             <main className={styles.main}>
                 <SideBar />
-                <Outlet />
+                <Outlet/>
             </main>
             <Footer />
 

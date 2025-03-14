@@ -15,3 +15,24 @@
     transition: background-color 1.5s;
     text-align: left;
 }
+
+.lists{
+    margin-top: 30px;
+    color: black;
+    transition: background-color 1.5s;
+    cursor: pointer;
+    padding: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 900;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lists:hover{
+    background-color: green;
+    transition: background-color 1.5s;
+    transform: scale(1.2);
+    animation: keepSize 0.1s forwards;
+}

@@ -8,10 +8,10 @@ function SideBar() {
   return (
     <div className={Style.sideBar}>
       <ul className={Style.options}>
-        <li onClick ={()=>navigate("/topRatedMovies")}>Top rated</li>
-        <li onClick ={()=>navigate("/topRatedMovies")}>Popular movies</li>
-        <li onClick ={()=>navigate("/upcomingMovies")} >UpComing soon</li>
-        <li onClick ={()=>navigate("/nowPlayingMovies")} >Now playing</li>
+        <li onClick ={()=>navigate("/topRatedMovies")} className={Style.lists}>Top rated</li>
+        <li onClick ={()=>navigate("/popularMovies")} className={Style.lists}>Popular movies</li>
+        <li onClick ={()=>navigate("/upcomingMovies")}  className={Style.lists}>UpComing soon</li>
+        <li onClick ={()=>navigate("/nowPlayingMovies")}  className={Style.lists}>Now playing</li>
       </ul>
     </div>
   )
